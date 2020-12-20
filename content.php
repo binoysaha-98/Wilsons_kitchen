@@ -224,12 +224,12 @@
     </div>
 </div>
 
-<script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyBh0H8FRiuJit0131p-RvpyDsaOeKYZi8o"></script>
+<script src="http://maps.googleapis.com/maps/api/js?key=<your_key>"></script>
 <script>
     myMap();
     var map;
     function myMap() {
-        var myCenter = new google.maps.LatLng(19.016559, 73.043196);
+        var myCenter = new google.maps.LatLng(190.59, 73.043196);
         var mapCanvas = document.getElementById("googleMap");
         var mapOptions = {
             center: myCenter,
